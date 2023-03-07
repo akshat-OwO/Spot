@@ -1,8 +1,12 @@
+import Logo from "./components/Logo"
+import TablesLayout from "./components/TablesLayout"
+
 function App() {
 
   return (
     <div className="App">
-      Hello
+      <Logo />
+      <TablesLayout />
     </div>
   )
 }

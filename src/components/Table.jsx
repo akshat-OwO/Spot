@@ -1,4 +1,4 @@
-const Table = ({ table, query }) => {
+const Table = ({ table, query, filter }) => {
     const people = table.tblPeople;
     
     const filteredPeople = people.map(p => {
@@ -6,14 +6,21 @@ const Table = ({ table, query }) => {
         if (name === undefined) return
         if (query === undefined) return
         if (name.toLowerCase() === (query.toLowerCase())) return name;
-    })
+    });
+
+    const filteredTeam = people.map(p => {
+        let team = p.teamNumber;
+        if (team === undefined) return
+        if (filter === undefined) return
+        if (team.toLowerCase() === (filter.toLowerCase())) return team;
+    });
 
     return (
         <div className="table">
             <h3>Table {table.tblNumber}</h3>
             <div className="chair-wrapper">
                 {people.map((p, index) => (
-                    <div className={`chair ${p.chair} ${filteredPeople.includes(p.name) ? 'found' : ''}`} key={index}>
+                    <div className={`chair ${p.chair} ${filteredPeople.includes(p.name) ? 'found' : ''} ${filteredTeam.includes(p.teamNumber) ? 'found' : ''}`} key={index}>
                         <div className="chair-details">
                             <div className="about">
                                 <img src={`${p.image}${p.name}`} alt={`${p.name} pfp`} />

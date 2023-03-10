@@ -5,30 +5,17 @@ import TablesLayout from "./components/TablesLayout";
 
 // data import
 import { data } from "../data/db";
-import { useEffect } from "react";
 
 function App() {
   const [tables, setTables] = useState(data);
   const [query, setQuery] = useState("");
-
-  // useEffect(() => {
-  //   if (query !== '') {
-  //     document.querySelectorAll('chair').forEach(ch => {
-  //       ch.classList.remove('occupied');
-  //     });
-  //   }
-  //   if (query === '') {
-  //     document.querySelectorAll('chair').forEach(ch => {
-  //       ch.classList.remove('found');
-  //     });
-  //   }
-  // }, [query]);
+  const [filter, setFilter] = useState('');
 
   return (
     <div className="App">
       <Logo />
-      <Search query={query} setQuery={setQuery} />
-      <TablesLayout tables={tables} query={query} />
+      <Search query={query} setQuery={setQuery} setFilter={setFilter} />
+      <TablesLayout tables={tables} query={query} filter={filter} />
     </div>
   )
 }

@@ -8,7 +8,8 @@ export const data = [
                 team: 'Mobile Frontend',
                 currentProject: 'Dell App Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 1'
             },
             {
                 name: 'Rohit',
@@ -16,7 +17,8 @@ export const data = [
                 team: 'Mobile Backend',
                 currentProject: 'Dell App Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 1'
             },
             {
                 name: 'Aditi',
@@ -24,7 +26,8 @@ export const data = [
                 team: 'Desktop Backend',
                 currentProject: 'Dell Website Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 1'
             },
             {
                 chair: 'unoccupied'
@@ -40,7 +43,8 @@ export const data = [
                 team: 'Desktop Frontend',
                 currentProject: 'Dell Website Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 2'
             },
             {
                 name: 'Deeksha',
@@ -48,7 +52,8 @@ export const data = [
                 team: 'Desktop Backend',
                 currentProject: 'Dell Website Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 2'
             },
             {
                 chair: 'unoccupied'
@@ -67,7 +72,8 @@ export const data = [
                 team: 'Database Management',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 3'
             },
             {
                 name: 'Neelam',
@@ -75,7 +81,8 @@ export const data = [
                 team: 'Database Management',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 4'
             },
             {
                 name: 'Abhishek',
@@ -83,7 +90,8 @@ export const data = [
                 team: 'Desktop Backend',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 3'
             },
             {
                 chair: 'unoccupied'
@@ -99,7 +107,8 @@ export const data = [
                 team: 'Database Management',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 4'
             },
             {
                 name: 'Shyam',
@@ -107,7 +116,8 @@ export const data = [
                 team: 'Database Management',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 4'
             },
             {
                 name: 'Sadhna',
@@ -115,7 +125,8 @@ export const data = [
                 team: 'Desktop Backend',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 5'
             },
             {
                 name: 'Khushi',
@@ -123,7 +134,8 @@ export const data = [
                 team: 'Desktop Backend',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 5'
             },
         ],
     },
@@ -136,7 +148,8 @@ export const data = [
                 team: 'Database Management',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 6'
             },
             {
                 name: 'Riddhi',
@@ -144,7 +157,8 @@ export const data = [
                 team: 'Database Management',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 6'
             },
             {
                 name: 'Ashi',
@@ -152,7 +166,8 @@ export const data = [
                 team: 'Desktop Backend',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 6'
             },
             {
                 chair: 'unoccupied'
@@ -168,7 +183,8 @@ export const data = [
                 team: 'Database Management',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 7'
             },
             {
                 name: 'Sparsh',
@@ -176,7 +192,8 @@ export const data = [
                 team: 'Database Management',
                 currentProject: 'Dell Mobile Design',
                 image: 'https://api.dicebear.com/5.x/avataaars/svg?seed=',
-                chair: 'occupied'
+                chair: 'occupied',
+                teamNumber: 'Team 7'
             },
             {
                 chair: 'unoccupied'

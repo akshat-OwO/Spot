@@ -1,6 +1,6 @@
 import Table from "./Table";
 
-const TablesLayout = ({ tables, query }) => {
+const TablesLayout = ({ tables, query, filter }) => {
     const data = tables;
 
     return (
@@ -8,7 +8,7 @@ const TablesLayout = ({ tables, query }) => {
             <div className="tbl-layout">
                 {
                     data.map((table) => (
-                        <Table key={table.tblNumber} table={table} query={query} />
+                        <Table key={table.tblNumber} table={table} query={query} filter={filter} />
                     ))
                 }
             </div>
